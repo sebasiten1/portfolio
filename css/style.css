@@ -1,0 +1,146 @@
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: aliceblue;
+    }
+    main {
+        display: flex;
+        padding: 10px;
+        height: 100%;
+    }
+    a {
+        color: #2CDCEB;
+    }
+    /** partie logo **/
+    .header-logo {
+        background-color: #94bff7;
+        border: 1px solid #94bff7;
+        border-top-left-radius: 20px 20px;
+        border-top-right-radius: 20px 20px;
+        border-bottom-left-radius: 20px 20px;
+        border-bottom-right-radius: 20px 20px;
+        height: 96vh;
+        width: 100%;
+    }
+    .logo {
+        margin: auto;
+        margin-top: 22%;
+        display: flex;
+        justify-content: center;
+    }
+    .presWebSite {
+        color: #0444C4;
+        text-align: center;
+    }
+    /** partie contenu **/
+    .main {
+        background-color: #36286c;
+        border: 1px solid #36286c;
+        border-top-left-radius: 20px 20px;
+        border-top-right-radius: 20px 20px;
+        border-bottom-left-radius: 20px 20px;
+        border-bottom-right-radius: 20px 20px;
+        height: 96vh;
+        width: 100%;
+        color: #8F81C2;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(35, 10px);
+        display: flex;
+    }
+    .grid-container {
+        margin-top: 130px;
+    }
+    p {
+        margin: 0;
+    }
+    .afterGroupe {
+        margin-top: 109px;
+    }
+    .link {
+        margin-top: 70px;
+    }
+    .denomination {
+        color: #F13E54;
+    }
+    .content {
+        color: #40DD5A;
+    }
+    .description {
+        color: #Fa9765;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1024px) {
+    html {
+        height: 100%;
+        margin: 0;
+    }
+    body {
+        background-color: aliceblue;
+    }
+    main {
+        display: flex;
+        padding: 10px;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    a {
+        color: #2CDCEB;
+    }
+    /** logo **/
+    .header-logo {
+        position: absolute;
+        justify-content: center;
+        opacity: 0.15;
+        z-index: 99;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        padding: auto;
+        align-items: center;
+        ;
+    }
+    .presWebSite {
+        display: none
+    }
+    /** main **/
+    .main {
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+        height: 100vh;
+        width: 100vh;
+        background-color: #36286c;
+        border: 1px solid #36286c;
+        border-top-left-radius: 20px 20px;
+        border-top-right-radius: 20px 20px;
+        border-bottom-left-radius: 20px 20px;
+        border-bottom-right-radius: 20px 20px;
+        color: #8F81C2;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(35, 10px);
+        display: flex;
+    }
+    .grid-container {
+        margin-top: 35px;
+    }
+    p {
+        margin: 0;
+    }
+    .afterGroupe {
+        margin-top: 109px;
+    }
+    .link {
+        margin-top: 70px;
+    }
+    .denomination {
+        color: #F13E54;
+    }
+    .content {
+        color: #40DD5A;
+    }
+    .description {
+        color: #Fa9765;
+    }
+}
